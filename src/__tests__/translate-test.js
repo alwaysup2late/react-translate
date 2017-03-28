@@ -50,7 +50,7 @@ it("`t` returns key if component is not specified", () => {
 it("`t` returns key if not specified", () => {
   const Dummy = ({ t }) => {
     expect(typeof t).toBe("function")
-    expect(t("foo")).toBe("Dummy.foo")
+    expect(t("foo")).toBe("[Dummy.foo]")
     return <div />
   }
   const WrappedDummy = translate("Dummy")(Dummy)
