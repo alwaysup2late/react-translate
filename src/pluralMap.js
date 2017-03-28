@@ -15,6 +15,7 @@ const pluralMap = {
   tr: CHINESE,
   zh: CHINESE,
 
+  at: GERMAN,
   da: GERMAN,
   de: GERMAN,
   en: GERMAN,
